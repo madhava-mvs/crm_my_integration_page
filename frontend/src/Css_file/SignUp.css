@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: rgb(231, 236, 236);
+}
+
+.Sign_outer_row1{
+    background-color: rgb(231, 236, 236);
+    height: 65vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sign_outer_row2{
+    background-color: rgb(231, 236, 236);
+    height: 40vh;
+    width: 100%;
+
+}
+.Sign_outer_row11{
+    margin-top: 200px;
+    background-color: white;
+    height: 72vh;
+    width: 70%;
+    box-shadow: 5px 5px 8px grey;
+    border-radius: 15px;
+    max-width: 400px;
+}
+.Sign_outer_row11_inner1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Sign_outer_row11_inner1 img{
+    margin-top: 10px;
+    height: 35px;
+}
+.Sign_outer_row11_inner1 label{
+    margin-top: -3px;
+}
+.Sign_outer_row11_inner2{
+    margin-top: 2px;
+    margin-left: 40px;
+}
+.Sign_outer_row11_inner2 label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    padding-top: -10px;
+}
+.Sign_outer_row11_inner3,
+.Sign_outer_row11_inner4,
+.Sign_outer_row11_inner5,
+.Sign_outer_row11_inner6,
+.Sign_outer_row11_inner7,
+.Sign_outer_row11_inner8
+{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.Sign_outer_row11_inner3{
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+}
+.Sign_outer_row11_inner3 input{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 45%;
+    padding: 9px;
+    outline: none;
+}
+.Sign_outer_row11_inner4 input,
+.Sign_outer_row11_inner5 input,
+.Sign_outer_row11_inner6 input,
+.Sign_outer_row11_inner8 input{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 85%;
+    padding: 9px;
+    outline: none;
+}
+.Sign_outer_row11_inner7{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    width: 80%;
+}
+.Sign_outer_row11_inner7 input{
+    margin-top: -5px;
+}
+.Sign_outer_row11_inner7 label
+{
+    font-size: 13px;
+    margin-left: 5px;
+    color: rgb(79, 79, 79);
+}
+.Sign_Terms_Text{
+    color: blueviolet;
+}
+
+.Sign_outer_row11_inner8 button{
+    width: 85%;
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-radius: 9px;
+    background-color: blueviolet;
+    color: white;
+}
+
