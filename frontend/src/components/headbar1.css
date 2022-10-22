@@ -4,8 +4,8 @@ body {
 .headbar_Topbar_header {
   background-color: #F3F3F4;
   width: 100%;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   padding-left: 10px;
   display: flex;
   flex-direction: row;
@@ -70,8 +70,9 @@ body {
   color: lightgray;
   background-color: white;
   border: 1px solid lightgray;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  box-shadow: -1px 5px 5px -3px rgba(211, 211, 211, 0.778);
 }
 
 .headbar_Topbar_col3 input {
@@ -96,9 +97,12 @@ body {
   align-items: center;
   padding-top: 5px;
   width: 200px;
-  color: rgba(125, 143, 177, 1);
 }
 
+.headbar_Topbar_col4 label{
+  color: rgba(125, 143, 177, 1);
+}
+.headbar_Topbar_profileIcon,
 .headbar_Topbar_BellIcon,
 .headbar_Topbar_cancelIcon {
   color: #9ca7b1;
@@ -107,7 +111,7 @@ body {
 .headbar_Topbar_profileIcon {
   font-size: 22px;
   font-weight: 50px;
-  margin-left: 33px;
+  margin-left: 38px;
   padding-bottom: 2px;
   margin-bottom: 3px;
 }
@@ -124,11 +128,11 @@ body {
   display: flex;
   flex-direction: row;
   padding-right: 30px;
-  padding-left: 15px;
+  padding-left: 25px;
 }
 
 .headbar_Topbar_cancel_circle {
-  margin-left: 35px;
+  margin-left: 20px;
 }
 
 .headbar_Topbar_content {
