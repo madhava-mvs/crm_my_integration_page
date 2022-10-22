@@ -152,8 +152,8 @@ export default function AddLead() {
         setEcreatedby("*created on is mandatory");
         // localStorage.setItem('ecreatedbyvar', errorcreatedby)
       } else {
-        const url = "http://localhost:3000/dev/InsertLead";
-        // const url = "https://xegps3cqo7.execute-api.us-east-1.amazonaws.com/dev/InsertLead"
+        // const url = "http://localhost:3000/dev/InsertLead";
+        const url = "https://xegps3cqo7.execute-api.us-east-1.amazonaws.com/dev/InsertLead"
         const data = {
           suffix: suffix,
           firstname: firstname,
