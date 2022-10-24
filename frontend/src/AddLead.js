@@ -45,90 +45,84 @@ export default function AddLead() {
       );
   
       if (suffix === "") {
-        setEfirstname("");
-        setElastname("");
-        setEcompany("");
-        setEemail("");
-        setEphone("");
-        setEaddress("");
-        setEcreatedon("");
-        setEcreatedby("");
         setEsuffix("*suffix is mandatory");
+        setEfirstname("*firstname is mandatory");
+        setElastname("*lastname is mandatory");
+        setEcompany("*company is mandatory");
+        setEemail("*email is mandatory");
+        setEphone("*phone is mandatory");
+        setEaddress("*address is mandatory");
+        setEcreatedon("*created on is mandatory");
+        setEcreatedby("*leads owner is mandatory");
         // localStorage.setItem('esuffixvar', errorsuffix)
       } else if (firstname === "") {
-        alert("firstname is mandatory");
         setEsuffix("");
-        setElastname("");
-        setEcompany("");
-        setEemail("");
-        setEphone("");
-        setEaddress("");
-        setEcreatedon("");
-        setEcreatedby("");
+        setEfirstname("*firstname is mandatory");
+        setElastname("*lastname is mandatory");
+        setEcompany("*company is mandatory");
+        setEemail("*email is mandatory");
+        setEphone("*phone is mandatory");
+        setEaddress("*address is mandatory");
+        setEcreatedon("*created on is mandatory");
+        setEcreatedby("*leads owner is mandatory");
         setEfirstname("*firstname is mandatory");
         // localStorage.setItem('efirstnamevar', errorfirstname)
       } else if (lastname === "") {
-        alert("lastname is mandatory");
-        setEfirstname("");
         setEsuffix("");
-        setEcompany("");
-        setEemail("");
-        setEphone("");
-        setEaddress("");
-        setEcreatedon("");
-        setEcreatedby("");
+        setEfirstname("");
         setElastname("*lastname is mandatory");
+        setEcompany("*company is mandatory");
+        setEemail("*email is mandatory");
+        setEphone("*phone is mandatory");
+        setEaddress("*address is mandatory");
+        setEcreatedon("*created on is mandatory");
+        setEcreatedby("*leads owner is mandatory");
         // localStorage.setItem('elastnamevar', errorlastname)
       } else if (company === "") {
-        alert("company is mandatory");
-        setElastname("");
         setEsuffix("");
         setEfirstname("");
-        setEemail("");
-        setEphone("");
-        setEaddress("");
-        setEcreatedon("");
-        setEcreatedby("");
+        setElastname("");
         setEcompany("*company is mandatory");
+        setEemail("*email is mandatory");
+        setEphone("*phone is mandatory");
+        setEaddress("*address is mandatory");
+        setEcreatedon("*created on is mandatory");
+        setEcreatedby("*leads owner is mandatory");
         // localStorage.setItem('ecompanyvar', errorcompany)
       } else if (email === "") {
-        alert("email is mandatory");
         setEsuffix("");
         setEfirstname("");
         setElastname("");
         setEcompany("");
-        setEphone("");
-        setEaddress("");
-        setEcreatedon("");
-        setEcreatedby("");
         setEemail("*email is mandatory");
+        setEphone("*phone is mandatory");
+        setEaddress("*address is mandatory");
+        setEcreatedon("*created on is mandatory");
+        setEcreatedby("*leads owner is mandatory");
         // localStorage.setItem('eemailvar', erroremail)
       } else if (phone === undefined) {
-        alert("phone is mandatory");
         setEsuffix("");
         setEfirstname("");
         setElastname("");
         setEcompany("");
         setEemail("");
-        setEaddress("");
-        setEcreatedon("");
-        setEcreatedby("");
         setEphone("*phone is mandatory");
+        setEaddress("*address is mandatory");
+        setEcreatedon("*created on is mandatory");
+        setEcreatedby("*leads owner is mandatory");
         // localStorage.setItem('ephonevar', errorphone)
       } else if (address === "") {
-        alert("state is mandatory");
         setEsuffix("");
         setEfirstname("");
         setElastname("");
         setEcompany("");
         setEemail("");
         setEphone("");
-        setEcreatedon("");
-        setEcreatedby("");
         setEaddress("*address is mandatory");
+        setEcreatedon("*created on is mandatory");
+        setEcreatedby("*leads owner is mandatory");
         // localStorage.setItem('eaddressvar', erroraddress)
       } else if (createdOn === "") {
-        alert("created on is mandatory");
         setEsuffix("");
         setEfirstname("");
         setElastname("");
@@ -136,11 +130,10 @@ export default function AddLead() {
         setEemail("");
         setEphone("");
         setEaddress("");
-        setEcreatedby("");
         setEcreatedon("*created on is mandatory");
+        setEcreatedby("*leads owner is mandatory");
         // localStorage.setItem('ecreatedonvar', errorcreatedon)
       } else if (createdBy === 0) {
-        alert("created on is mandatory");
         setEsuffix("");
         setEfirstname("");
         setElastname("");
@@ -149,7 +142,7 @@ export default function AddLead() {
         setEphone("");
         setEaddress("");
         setEcreatedon("");
-        setEcreatedby("*created on is mandatory");
+        setEcreatedby("*leads owner is mandatory");
         // localStorage.setItem('ecreatedbyvar', errorcreatedby)
       } else {
         // const url = "http://localhost:3000/dev/InsertLead";

@@ -29,11 +29,11 @@ export default function Topbar() {
                 </div>
                 <div className="headbar_Topbar_col2" >
                     <ul>
-                        <li>Dashboard</li>
-                        <li>Accounts</li>
-                        <div className="headbar_Tobar_col2_on" onClick={(e) => { handleclick(e) }}><li>campaigns</li></div>
-                        <div className="headbar_Tobar_col2_on1" onClick={(e) => { handleclick(e) }}><li>leads</li></div>
-                        <div className="headbar_Tobar_col2_on2" onClick={(e) => { handleclick(e) }}><li>prospects</li></div>
+                        <li><label>Dashboard</label></li>
+                        <li><label>Accounts</label></li>
+                        <div className="headbar_Tobar_col2_on" onClick={(e) => { handleclick(e) }}><li><label>Campaigns</label></li></div>
+                        <div className="headbar_Tobar_col2_on1" onClick={(e) => { handleclick(e) }}><li><label>Leads</label></li></div>
+                        <div className="headbar_Tobar_col2_on2" onClick={(e) => { handleclick(e) }}><li><label>Prospects</label></li></div>
                         <li className="headbar_threeDots_icon">
                             <BsThreeDots />
                         </li>

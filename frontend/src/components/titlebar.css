@@ -5,6 +5,7 @@
     padding: 10px 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .titlebar_bagSquare{
     background-color: white;
@@ -21,6 +22,11 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.titlebar_top_col1 label{
+    padding-top: 3px;
+}
+
 .titlebar_top_col1 label,
 .titlebar_top_col21 label{
     font-size: 12px;
